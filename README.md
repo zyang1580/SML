@@ -16,6 +16,11 @@
   + --multi_num: stop condition  (line 4 in Alg 1 in paper)
   + others: read help, or "python main_yelp.py --help"
 
+  ## Dataset
+  Save as array,
+  + train: period_num.npy (user_id,item_id)
+  + test:  period_num.npy (user_id,pos_item_id, neg_item_id)
+  
   ## Examples
 
   ### Yelp
@@ -31,8 +36,5 @@
   
   for Adressa, if we set the ***MF_epochs and TR_epochs*** same to paper (=1) , we can also get a similar performance when adjust ***multi_num***.
 
-## Dataset
-Save as array,
-+ train: period_num.npy (user_id,item_id)
-+ test:  period_num.npy (user_id,pos_item_id, neg_item_id)
+
 
