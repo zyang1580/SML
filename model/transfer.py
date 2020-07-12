@@ -12,7 +12,7 @@ from data.dataset2 import trainDataset_withPreSample as PreSampleDatast
 from data.dataset2 import testDataset
 import torch.nn.functional as F
 import torch.utils.data
-from model.train_model import train_one_epoch
+#from model.train_model import train_one_epoch
 from evalution.evaluation2 import test_model
 from torch.utils.tensorboard import SummaryWriter
 import copy
