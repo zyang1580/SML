@@ -34,7 +34,7 @@
   ### Adressa
   `nohup python main_news.py --MF_epochs=2 --TR_epochs=2 --multi_num=7 > yelp_log.out &`
   
-  for Adressa, if we set the ***MF_epochs and TR_epochs*** same to paper (=1) , we can also get a similar performance when adjust ***multi_num***.
+  for Adressa, if we set the ***MF_epochs and TR_epochs*** same to paper (=1) , we can also get a similar performance if we adjust ***multi_num***.
 
 
 
