@@ -20,7 +20,7 @@
   Save as array,
   + train: period_num.npy (user_id,item_id)
   + test:  period_num.npy (user_id,pos_item_id, neg_item_id)
-  URL: https://rec.ustc.edu.cn/share/1e40a9b0-c80a-11ea-b178-77f793cf5b55
+  + Dataset URL: https://rec.ustc.edu.cn/share/1e40a9b0-c80a-11ea-b178-77f793cf5b55 (This is Yelp, Adressa will be uploaded later)
   
   ## Examples
 
