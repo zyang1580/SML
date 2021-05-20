@@ -1,7 +1,7 @@
 # SML
   This is an implementation for our SIGIR 2020 paper: *How to Retrain Recommender System? A Sequential Meta-Learning Method.*
   
-  ## Contributors: 
+  Contributors: 
   Yang Zhang, Chenxu Wang, Fuli Feng, Xiangnan He
   
   ## Requirements
