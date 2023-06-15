@@ -8,7 +8,6 @@
   pytorch >= 1.2
 
   numpy
-
   ## Parameters
 
   + --MF_lr: learning rate for $\hat(w)_t$
