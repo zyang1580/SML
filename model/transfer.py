@@ -12,7 +12,6 @@ from data.dataset2 import trainDataset_withPreSample as PreSampleDatast
 from data.dataset2 import testDataset
 import torch.nn.functional as F
 import torch.utils.data
-#from model.train_model import train_one_epoch
 from evalution.evaluation2 import test_model
 from torch.utils.tensorboard import SummaryWriter
 import copy
@@ -766,8 +765,6 @@ class meta_train():
         ''' save MFbase  last weight'''
         self.save_MF_weight(save_as='last')               # save MF weight as last_weight
 
-        #the following code ,can be used when W_hat is pretrained, and not connected with transfer.
-        #self.load_MFbase_weight(self.last_user_weight_hat,self.last_item_weight_hat)
 
         set_t, set_tt, now_test,val = self.get_next_data(stage_id)
         if set_t is None:   #  no data avaliable, stop
